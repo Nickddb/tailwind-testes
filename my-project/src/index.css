@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    /* Cores precisam do prefixo --color- */
+    --color-primary: #2091F9;
+    --color-text: #252B42;
+    --color-secondary-text: #374754;
+    --color-dark-background: #252B42;
+
+    /* Fontes precisam do prefixo --font- */
+    --font-graphik-bold: "Graphik-bold";
+    --font-graphik: "Graphik";
+
+}
+
+@font-face{
+      font-family: "Graphik-bold";
+      src: url("./fonts/graphik/Graphik-Bold-Trial.otf") format("opentype");
+      font-style: normal;
+      font-display: swap;
+    }
+
+@font-face{
+      font-family: "Graphik";
+      src: url("./fonts/graphik/Graphik-Regular-Trial.otf") format("opentype");
+      font-style: normal;
+      font-display: swap;
+    }
