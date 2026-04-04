@@ -11,6 +11,9 @@
     --font-graphik-bold: "Graphik-bold";
     --font-graphik: "Graphik";
 
+    /*screens = breakpoint*/
+    --breakpoint-xs: 400px;
+
 }
 
 @font-face{
