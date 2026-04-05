@@ -1,9 +1,17 @@
+import { Button } from './Components/button'
+import { Heading } from './Components/heading'
 
-import { Button } from './Components/button';
 function App(){
 
   return (
       <>
+        <div className='bg-green-200'>
+          <Heading>Hello world of heading 1</Heading>
+          <Heading type='h2' color='white'>
+            Hello world of heading 2
+          </Heading>
+        </div>
+
         <h1 className='text-primary bg-dark-background font-graphik-bold'>Hello, World!</h1>
         <div>
           <div className="w-full flex gap-3 items-center flex-col lg:flex-row justify-center">
