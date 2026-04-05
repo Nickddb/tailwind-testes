@@ -1,5 +1,7 @@
 import { Button } from './Components/button'
 import { Heading } from './Components/heading'
+import { CalendarFeature } from './Components/CalendarFeatures'
+import { Testimonials } from './Components/Testimonials'
 
 function App(){
 
@@ -27,6 +29,10 @@ function App(){
           <Button variant='secondary'>Secondary Background</Button>
           <Button isBold={true}>Bold Text with Primary Background</Button>
           <Button isBold={true} variant='secondary'>Bold Text with Secondary Background</Button>
+        </div>      
+        <div className='bg-dark-background'>
+          <Testimonials />
+          <CalendarFeature/>
         </div>
       </>
     )

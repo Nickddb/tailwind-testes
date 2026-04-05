@@ -1,4 +1,4 @@
-export const Button = ({ children, variant = "primary", isBold = false }) => {
+export const Button = ({ children, variant = "primary", isBold = false, className = '' }) => {
   return (
     <button
       className={`flex items-center justify-center p-4 rounded-[35px] text-xl leading-5 transition-all 
@@ -7,6 +7,7 @@ export const Button = ({ children, variant = "primary", isBold = false }) => {
           : 'bg-white text-primary border border-primary'
         } 
         ${isBold ? 'font-graphik-bold' : 'font-graphik'}
+        ${className}
       `}
     >
       {children}
